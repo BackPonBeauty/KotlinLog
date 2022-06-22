@@ -8,18 +8,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-       // val dog = Dog("ポチ", 3)      // 名前をポチ、年齢3歳で、Dogのインスタンスを作る
-        val human= Human("長久保浩二", 42,  "立てこもり")
+        // val dog = Dog("ポチ", 3)      // 名前をポチ、年齢3歳で、Dogのインスタンスを作る
+        val human= Human("長久保浩二", 42, hobby = "立てこもり")
         human.say()
-        human.think()
-   /*   Log.d("kotlintest", "犬の名前は" + dog.name + "です。")
-        Log.d("kotlintest", "犬の年齢は" + dog.age + "歳です。")
+        Log.d("kotlintest", "私の名前は" + human.name + "です。年は" + human.age + "歳" + "です。")
+        val human2= Human("長久保浩二", 42, hobby = "立てこもり")
+        human2.think()
+        Log.d("kotlintest", "私は" + human2.hobby + "について考える。")
 
-        val bigdog = BigDog("ヨーゼフ", 15)     // 名前をヨーゼフ、年齢15歳で、BigDogのインスタンスを作る
 
-        bigdog.say()
-        Log.d("kotlintest", "犬の名前は" + bigdog.name + "です。")
-        Log.d("kotlintest", "犬の年齢は" + bigdog.age + "歳です。")
-        */
     }
 }
