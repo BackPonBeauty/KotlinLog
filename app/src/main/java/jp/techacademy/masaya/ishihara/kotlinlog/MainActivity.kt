@@ -9,10 +9,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // val dog = Dog("ポチ", 3)      // 名前をポチ、年齢3歳で、Dogのインスタンスを作る
-        val human= Human("長久保浩二", 42, hobby = "立てこもり")
+        val human= Human("ゼレンスキー", 44, hobby = "ロシア")
         human.say()
         human.think()
-        val human2= Human("長久保浩二", 42, hobby = "立てこもり")
+        val human2= Human("プーチン", 70, hobby = "ウクライナ")
         human2.say()
         human2.think()
 
