@@ -11,10 +11,11 @@ class MainActivity : AppCompatActivity() {
         // val dog = Dog("ポチ", 3)      // 名前をポチ、年齢3歳で、Dogのインスタンスを作る
         val human= Human("長久保浩二", 42, hobby = "立てこもり")
         human.say()
-        Log.d("kotlintest", "私の名前は" + human.name + "です。年は" + human.age + "歳" + "です。")
+        human.think()
         val human2= Human("長久保浩二", 42, hobby = "立てこもり")
+        human2.say()
         human2.think()
-        Log.d("kotlintest", "私は" + human2.hobby + "について考える。")
+
 
 
     }
