@@ -15,8 +15,5 @@ class MainActivity : AppCompatActivity() {
         val human2= Human("プーチン", 70, hobby = "ウクライナ")
         human2.say()
         human2.think()
-
-
-
     }
 }
